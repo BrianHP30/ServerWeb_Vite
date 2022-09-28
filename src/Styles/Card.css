@@ -1,0 +1,43 @@
+.imagen{
+    width: 35%;
+    height: 80%;
+    border-radius: 30px;
+    border: 5px rgb(26, 25, 25) solid;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 2%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.name{
+    background-color: none;
+    border-radius: 30px;
+}
+
+.name p{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    transform: translate(-230%, -50%);
+}
+
+.imagen:hover{
+    transition: all 0.5s;
+    box-shadow: 5px 5px 10px rgb(26, 25, 25);
+}
+
+.imagen img:hover{
+    width: 105%;
+    height: 110%;
+    transition: all 0.5s;
+}
+
